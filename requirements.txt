@@ -1,6 +1,6 @@
 pyodbc
 pandas
 streamlit
-ploty.express
+plotly.express
 numpy
 sys
