@@ -1,9 +1,9 @@
 import pyodbc
 import pandas as pd
 import streamlit as st
-import sys
 import plotly.express as px
 import numpy as np
+import sys
 
 o_db_dwh = pyodbc.connect(
     "DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.1.1.32;DATABASE=DWH;UID=sa;PWD=sas"
